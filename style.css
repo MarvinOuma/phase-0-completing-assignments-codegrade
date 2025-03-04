@@ -1,0 +1,31 @@
+/* Basic styling for the webpage */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Styling for headers */
+h1 {
+    color: #333;
+    font-size: 2em;
+}
+
+h2 {
+    color: #666;
+    font-size: 1.5em;
+}
+
+/* Styling for images */
+img {
+    width: 80%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 16px;
+    color: #444;
+}
