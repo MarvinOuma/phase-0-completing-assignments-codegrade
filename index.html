@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biggest U.S. Cities</title>
+    <style>
+        /* Add a border using CSS instead of the obsolete `border` attribute */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
+
+    <!-- The heading should be outside the table -->
     <h1>Biggest U.S. Cities by Population (2017)</h1>
-    <table border="1">
+
+    <table>
         <tr>
             <th>City</th>
             <th>State</th>
@@ -34,5 +52,18 @@
             <td>2,312,717</td>
         </tr>
     </table>
+
+    <!-- Image Section -->
+    <h1>Image Examples</h1>
+
+    <!-- Image with only source (now with an alt attribute) -->
+    <img src="https://s3.amazonaws.com/ironboard-learn/lion.jpg" alt="A lion standing in the wild" />
+
+    <!-- Image with source and alt attribute -->
+    <img src="https://s3.amazonaws.com/ironboard-learn/lion.jpg" alt="A lion in the wild" />
+
+    <!-- Image with source, alt, and title attributes -->
+    <img src="https://s3.amazonaws.com/ironboard-learn/lion.jpg" alt="A lion in the wild" title="King of the Jungle" />
+
 </body>
 </html>
